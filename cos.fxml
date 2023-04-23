@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="47.0" layoutY="68.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.0" text="Produsele din cos" />
+        </columns>
+      </TableView>
+      <Label layoutX="217.0" layoutY="25.0" text="Vizualizare cos de cumparaturi" />
+      <Button layoutX="413.0" layoutY="117.0" mnemonicParsing="false" text="Plaseaza comanda" />
+      <Button layoutX="401.0" layoutY="208.0" mnemonicParsing="false" text="Continua cumparaturile" />
+   </children>
+</AnchorPane>
